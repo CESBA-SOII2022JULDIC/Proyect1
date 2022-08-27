@@ -8,8 +8,9 @@
  *
  * @author Administrador
  */
-public class Universidades {
-   private int ID;
+public class Carreras {
+     private int ID;
+    private int ID_Universidad;
     private String Nombre;
     private String Estatus;
 
@@ -19,6 +20,14 @@ public class Universidades {
 
     public void setID(int ID) {
         this.ID = ID;
+    }
+
+    public int getID_Universidad() {
+        return ID_Universidad;
+    }
+
+    public void setID_Universidad(int ID_Universidad) {
+        this.ID_Universidad = ID_Universidad;
     }
 
     public String getNombre() {
